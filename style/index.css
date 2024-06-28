@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+  --mainColor: #006b38ff;
+  --bgColor: #101820ff;
+  --fontColor: #ffffff;
+  --fontColorDark: #bfbfbf;
+  --dark: #1B2934;
+  --text: #e348a9;
+}
+body{
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+/* scroll-bar */
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--bgColor);
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background:  var(--mainColor);
+}
+
+html{scroll-behavior: smooth;}
+
+body{
+	background-color: var(--bgColor);
+	margin: 0;
+	border: 0;
+	font-family: Braah One, sans-serif;
+	font-size: 18px;
+	user-select: none;
+    overflow-x: hidden;
+    background-image: url(../images/bg.svg);
+    background-repeat: repeat;
+    background-size: contain;
+}
