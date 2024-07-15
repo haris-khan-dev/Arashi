@@ -6,6 +6,7 @@ section{
     display: flex;
     justify-content: center;
     transition: .2s;
+    margin: auto;
 } 
 .discord_btn:hover{
     transform: translateY(-6.5px);
