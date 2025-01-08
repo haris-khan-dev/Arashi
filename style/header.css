@@ -11,7 +11,7 @@ nav{
     margin: auto;
     font-family: Nunito, sans-serif;
     z-index: 100;
-    background:var(--bgColor);
+     background:var(--bgColor); /* error told by terminal */
     backdrop-filter: blur(1rem);
     background: linear-gradient(to right bottom, rgba(15, 14, 17, 0.4), rgba(15, 14, 17, 0.2));
 }
